@@ -1,0 +1,119 @@
+/*
+Theme Name: The Wow Factory Child
+Theme URI: https://them.es/starter
+Template: the-wow-factory
+Author: The Wow Factory
+Author URI: https://www.thewowfactory.co.uk/
+Description: Bootstrap 5.2 Theme
+Tags: custom-background,custom-colors,featured-images,flexible-header,microformats,post-formats,rtl-language-support,theme-options,translation-ready,accessibility-ready
+Version: 3.2.1658486609
+Updated: 2022-07-22 11:43:29
+
+*/
+
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #333!important;
+    background: #fff!important;
+    font-size: 14px;
+    line-height: normal!important;
+  }
+  
+* {
+  box-sizing: border-box!important;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+  max-width: 1440px!important;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700 !important;
+  font-size: 42px !important;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700 !important;
+  font-size: 36px !important;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p.subheading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px !important;
+}
+
+.bg_image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.site-header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #fff;
+}
+
+.navbar .container-fluid,
+.navbar .container {
+  display: block!important;
+}
+
+.navbar-brand img {
+  height: 100% !important;
+  max-height: 100px;
+}
+
+/* Home Section */
+.Home_section {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+}
+
+.Home_section .image_wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.Home_section .image_wrapper .bg_image {
+  height: 500px;
+  transition: 1.2s all;
+}
+
+.Home_section .image_wrapper .bg_image:hover {
+  transform: scale(1.2);
+}
+
+.Home_section .image_wrapper .bg_image button {
+  position: absolute;
+  background: transparent;
+  border: none;
+  height: 100%;
+  width: 100%;
+}
+
+.Home_section .modal img {
+  height: 100%;
+  width: 100%;
+}
+
+/* About Us */
+.about_us_wrapper {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+}
